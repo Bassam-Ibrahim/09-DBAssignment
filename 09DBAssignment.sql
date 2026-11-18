@@ -144,4 +144,4 @@ FROM sys.views v
 JOIN sys.schemas s ON v.schema_id = s.schema_id
 JOIN sys.indexes i ON v.object_id = i.object_id
 WHERE i.index_id > 0;
---=====
+--=======================================-
